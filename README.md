@@ -10,3 +10,12 @@ A case is classified by a majority vote of its neighbors, with the case being as
 https://youtu.be/yZ-hH89H5Tc
 ## Project demo
 https://youtu.be/FH79poerjVc
+
+## Haar-cascade Detection in OpenCV
+OpenCV comes with a trainer as well as detector. If you want to train your own classifier for any object like car, planes etc. We use haarcascade_frontalface_default.xml to detect faces in image
+
+## Collecting Face data 
+For collecting data of differents faces "face_data.py" file is used and faces are stored in the form of Numpy array
+
+## Face recognisation
+For live face recognisation "face_rec.py" file is used which usses K-NN algorithm to check the given face 
